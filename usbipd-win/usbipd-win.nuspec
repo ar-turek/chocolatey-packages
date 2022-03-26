@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- == PACKAGE SPECIFIC SECTION == -->
+    <!-- This section is about this package, although id and version have ties back to the software -->
+    <id>usbipd-win</id>
+    <version>2.1.0</version>
+    <packageSourceUrl>https://github.com/ar-turek/chocolatey-packages/tree/usbipd-win-v2.1.0/usbipd-win</packageSourceUrl>
+    <owners>Artur Ciesielski (https://github.com/ar-turek)</owners>
+    <!-- ============================== -->
+
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <!-- This section is about the software itself -->
+    <title>USB/IP daemon for Windows</title>
+    <authors>Frans van Dorsselaer</authors>
+    <projectUrl>https://github.com/dorssel/usbipd-win/blob/v2.1.0/README.md</projectUrl>
+    <licenseUrl>https://github.com/dorssel/usbipd-win/blob/v2.1.0/COPYING.md</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/dorssel/usbipd-win</projectSourceUrl>
+    <docsUrl>https://github.com/dorssel/usbipd-win/blob/v2.1.0/README.md</docsUrl>
+    <wikiUrl>https://github.com/dorssel/usbipd-win/wiki</wikiUrl>
+    <bugTrackerUrl>https://github.com/dorssel/usbipd-win/issues</bugTrackerUrl>
+    <tags>usbip-win usbipd-win usbip usbipd windows wsl wsl2 usb hyper-v</tags>
+    <summary>Package for usbipd-win</summary>
+    <description>Windows software for sharing locally connected USB devices to other machines, including Hyper-V guests and WSL 2.</description>
+    <releaseNotes>https://github.com/dorssel/usbipd-win/releases/tag/v2.1.0</releaseNotes>
+    <!-- <iconUrl>https://github.com/dorssel/usbipd-win/releases/tag/v2.1.0/icons/usbipd-win.png</iconUrl> -->
+    <!-- =============================== -->
+
+    <dependencies>
+      <dependency id="usbipd-win.install" version="[2.1.0]" />
+    </dependencies>
+  </metadata>
+</package>
