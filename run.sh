@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -euo pipefail
+set -eo pipefail
 shopt -s expand_aliases
 source ~/.bashrc
 
@@ -10,6 +10,8 @@ project_version="${3}"
 
 if [[ -z "${command}" || -z "${project_name}" || -z "${project_version}" ]]; then
     echo "Usage: ${0} [build | push] PROJECT VERSION"
+    echo ""
+    echo "Example: ${0} build usbipd-win 2.1.0"
     exit 1
 fi
 
